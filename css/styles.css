@@ -445,3 +445,33 @@ margin-bottom: 16px;
 .footer-soc-icon {
   fill: #F4F4FD;
 }
+/* modal */
+.backdrop {
+  background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.modal {}
+
+.model-clouse-btn {}
+
+.model-clouse-icon {}
+
+.modal-title {}
+
+.modal-form {}
+
+.modal-field {}
+
+.modal-label {}
+
+.input-wrap {}
+
+.model-input {}
+
+.model-icon {}
