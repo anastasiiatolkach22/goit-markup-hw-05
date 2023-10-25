@@ -535,7 +535,7 @@ p {
   
     font-size: 12px;
    
-    line-height: 14px;
+    line-height: 1.17;
   
     letter-spacing: 0.48px;
     margin-bottom: 4px;
@@ -554,6 +554,7 @@ p {
     outline: transparent;
     padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 }
 .model-input:focus{
   border-color: #4D5AE5;
@@ -584,7 +585,7 @@ p {
     font-size: 12px;
     
     
-    line-height: 14px;
+    line-height: 1.17;
    
     letter-spacing: 0.48px;
     width: 100%;
@@ -596,6 +597,7 @@ p {
       padding: 8px 16px;
       display: block;
       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      background-color: transparent;
 }
 .model-textarea:focus {
   border-color: #4D5AE5;
