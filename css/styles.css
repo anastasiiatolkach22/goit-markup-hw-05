@@ -478,7 +478,8 @@ p {
   outline: transparent;
   border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     color: var(--WHITE, #FFF);
      
@@ -513,7 +514,7 @@ p {
 
 }
 .fotter-form-icon{
-  margin-right: 16px;
+ margin-left: 16px;
 }
 /* modal */
 .backdrop {
@@ -690,7 +691,7 @@ p {
  
     font-size: 12px;
  
-    line-height: 14px;
+  line-height: 1.17;
  
     letter-spacing: 0.48px;
 }
